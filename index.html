@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alper Emin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/bars?f=classic&s=solid" />
+</head>
+<body>
+    <header>
+        <div class="navbar"> 
+            <div class="container-nav">
+                <h1>Alper Emin</h1>
+                <button class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+                <nav id="mainMenu">
+                    <ul>
+                        <li><a href="#home">Anasayfa</a></li>
+                        <li><a href="#skills">Yeteneklerim</a></li>
+                        <li><a href="#portfolio">Galeri</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Benim şahsi siteme hoş geldiniz.</p><br>
+            <p>Ben bir yazılımcıyım. Kod yazmak benim en sevdiğim şeydir. Şu ana kadar 3 farklı dil biliyorum.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+            <div class="section_title">
+                <h2>YAZILIMLAR</h2>
+            </div>
+            <div class="innersoftware">
+                <div class="innersoftware_child">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>              
+                    <h3><br>WEB</h3>
+                </div>
+                <div class="innersoftware_child">   
+                    <div class="icon">                 
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <h3><br>PYTHON</h3>
+                </div>
+                <div class="innersoftware_child">
+                    <div class="icon">             
+                        <i class="fa-solid fa-c"></i>
+                    </div>
+                    <h3><br>C++</h3>
+                </div>
+            </div>
+    </section>
+
+    <section id="portfolio" class="alternate">
+        <div class="container">
+            <h2>Galeri</h2>
+            <p>İşte benim yaptığım bazı projelerin görselleri:</p>
+            <div class="gallery">
+                <img src="web1.png" alt="Proje 1">
+                <img src="web2.png" alt="Proje 2">
+                <img src="web3.png" alt="Proje 1">
+                <img src="web4.png" alt="Proje 2">
+                <img src="web5.png" alt="Proje 1">
+            </div>
+        </div>
+    </section>
+
+    <section id="playlist" class="play-list">
+        <div class="playlist-container">
+            <h2>Müzik Çalma Listesi</h2>
+            <div class="playlist">
+                <div class="song">
+                    <img src="song.jpg" alt="Song 1">
+                    <div class="overlay">
+                        <h3 class="title">Hey Brother</h3>
+                        <audio src="song1.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="song.jpg" alt="Song 2">
+                    <div class="overlay">
+                        <h3 class="title">Centuries</h3>
+                        <audio src="song2.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="song.jpg" alt="Song 3">
+                    <div class="overlay">
+                        <h3 class="title">Bleend out</h3>
+                        <audio src="song7.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="song.jpg" alt="Song 3">
+                    <div class="overlay">
+                        <h3 class="title">Dancin</h3>
+                        <audio src="song3.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="song.jpg" alt="Song 3">
+                    <div class="overlay">
+                        <h3 class="title">The Spectre</h3>
+                        <audio src="song4.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="song.jpg" alt="Song 3">
+                    <div class="overlay">
+                        <h3 class="title">Real Gone</h3>
+                        <audio src="song5.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div> 
+                <div class="song">
+                    <img src="song.jpg" alt="Song 3">
+                    <div class="overlay">
+                        <h3 class="title">Hunter love</h3>
+                        <audio src="song6.mp3" class="audioPlayer"></audio>
+                    </div>
+                </div>
+                <!-- Buraya çalma listesi öğeleri eklenebilir -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; Alper Emin tarafından yapılmıştır.
+        </div>
+        <div class="iletisim">
+            <a href="https://www.instagram.com/alpereminaktay/"><i class="fa-brands fa-instagram">   Instagram</i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
